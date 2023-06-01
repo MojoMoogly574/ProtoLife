@@ -12,8 +12,9 @@ struct AddBudgetCategoryView: View {
     @Environment(\.managedObjectContext) private var viewContext
     
     @State private var categoryName: String = ""
-    @State private var categoryTotal: Double = 100
+    @State private var categoryTotal :  Double =  100
     @State private var messages: [String] = [ ]
+    
     
     //MARK:  VALIDATING THE FORM
     var isFormValid: Bool {
@@ -62,13 +63,11 @@ struct AddBudgetCategoryView: View {
                 
                 ForEach (messages, id: \.self) { messages in
                     Text(messages)
-                    
                 }
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Cancel")  {
-                        
                     }
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
