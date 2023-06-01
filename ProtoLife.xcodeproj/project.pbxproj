@@ -14,6 +14,11 @@
 		4A4574152A28F349004226AA /* ProtoLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574142A28F349004226AA /* ProtoLifeTests.swift */; };
 		4A45741F2A28F349004226AA /* ProtoLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A45741E2A28F349004226AA /* ProtoLifeUITests.swift */; };
 		4A4574212A28F349004226AA /* ProtoLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574202A28F349004226AA /* ProtoLifeUITestsLaunchTests.swift */; };
+		4A4574332A28F640004226AA /* DailyBudget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574312A28F640004226AA /* DailyBudget.xcdatamodeld */; };
+		4A4574352A28FA5E004226AA /* BudgetCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574342A28FA5E004226AA /* BudgetCategory+CoreDataClass.swift */; };
+		4A4574372A28FC34004226AA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574362A28FC34004226AA /* CoreDataManager.swift */; };
+		4A4574392A28FF80004226AA /* AddBudgetCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574382A28FF80004226AA /* AddBudgetCategoryView.swift */; };
+		4A45743B2A290832004226AA /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A45743A2A290832004226AA /* NumberFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		4A45741A2A28F349004226AA /* ProtoLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A45741E2A28F349004226AA /* ProtoLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoLifeUITests.swift; sourceTree = "<group>"; };
 		4A4574202A28F349004226AA /* ProtoLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A4574322A28F640004226AA /* DailyBudget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyBudget.xcdatamodel; sourceTree = "<group>"; };
+		4A4574342A28FA5E004226AA /* BudgetCategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BudgetCategory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4A4574362A28FC34004226AA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4A4574382A28FF80004226AA /* AddBudgetCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetCategoryView.swift; sourceTree = "<group>"; };
+		4A45743A2A290832004226AA /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,10 @@
 		4A4574012A28F348004226AA /* ProtoLife */ = {
 			isa = PBXGroup;
 			children = (
-				4A4574022A28F348004226AA /* ProtoLifeApp.swift */,
-				4A4574042A28F348004226AA /* ContentView.swift */,
+				4A4574302A28F5A0004226AA /* Extensions */,
+				4A45742F2A28F596004226AA /* Managers */,
+				4A45742E2A28F58C004226AA /* Models */,
+				4A45742D2A28F585004226AA /* Views */,
 				4A4574062A28F349004226AA /* Assets.xcassets */,
 				4A4574082A28F349004226AA /* ProtoLife.entitlements */,
 				4A4574092A28F349004226AA /* Preview Content */,
@@ -127,6 +139,41 @@
 				4A4574202A28F349004226AA /* ProtoLifeUITestsLaunchTests.swift */,
 			);
 			path = ProtoLifeUITests;
+			sourceTree = "<group>";
+		};
+		4A45742D2A28F585004226AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A4574042A28F348004226AA /* ContentView.swift */,
+				4A4574382A28FF80004226AA /* AddBudgetCategoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A45742E2A28F58C004226AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A4574022A28F348004226AA /* ProtoLifeApp.swift */,
+				4A4574312A28F640004226AA /* DailyBudget.xcdatamodeld */,
+				4A4574342A28FA5E004226AA /* BudgetCategory+CoreDataClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A45742F2A28F596004226AA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4A4574362A28FC34004226AA /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4A4574302A28F5A0004226AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A45743A2A290832004226AA /* NumberFormatter.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +308,11 @@
 			files = (
 				4A4574052A28F348004226AA /* ContentView.swift in Sources */,
 				4A4574032A28F348004226AA /* ProtoLifeApp.swift in Sources */,
+				4A4574352A28FA5E004226AA /* BudgetCategory+CoreDataClass.swift in Sources */,
+				4A4574392A28FF80004226AA /* AddBudgetCategoryView.swift in Sources */,
+				4A4574372A28FC34004226AA /* CoreDataManager.swift in Sources */,
+				4A45743B2A290832004226AA /* NumberFormatter.swift in Sources */,
+				4A4574332A28F640004226AA /* DailyBudget.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +664,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A4574312A28F640004226AA /* DailyBudget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A4574322A28F640004226AA /* DailyBudget.xcdatamodel */,
+			);
+			currentVersion = 4A4574322A28F640004226AA /* DailyBudget.xcdatamodel */;
+			path = DailyBudget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4A4573F72A28F348004226AA /* Project object */;
 }
