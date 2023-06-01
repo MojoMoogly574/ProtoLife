@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4574032A28F348004226AA /* ProtoLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574022A28F348004226AA /* ProtoLifeApp.swift */; };
+		4A4574052A28F348004226AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574042A28F348004226AA /* ContentView.swift */; };
+		4A4574072A28F349004226AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4574062A28F349004226AA /* Assets.xcassets */; };
+		4A45740B2A28F349004226AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A45740A2A28F349004226AA /* Preview Assets.xcassets */; };
+		4A4574152A28F349004226AA /* ProtoLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574142A28F349004226AA /* ProtoLifeTests.swift */; };
+		4A45741F2A28F349004226AA /* ProtoLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A45741E2A28F349004226AA /* ProtoLifeUITests.swift */; };
+		4A4574212A28F349004226AA /* ProtoLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574202A28F349004226AA /* ProtoLifeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A4574112A28F349004226AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A4573F72A28F348004226AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A4573FE2A28F348004226AA;
+			remoteInfo = ProtoLife;
+		};
+		4A45741B2A28F349004226AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A4573F72A28F348004226AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A4573FE2A28F348004226AA;
+			remoteInfo = ProtoLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A4573FF2A28F348004226AA /* ProtoLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4574022A28F348004226AA /* ProtoLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoLifeApp.swift; sourceTree = "<group>"; };
+		4A4574042A28F348004226AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A4574062A28F349004226AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A4574082A28F349004226AA /* ProtoLife.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProtoLife.entitlements; sourceTree = "<group>"; };
+		4A45740A2A28F349004226AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A4574102A28F349004226AA /* ProtoLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4574142A28F349004226AA /* ProtoLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoLifeTests.swift; sourceTree = "<group>"; };
+		4A45741A2A28F349004226AA /* ProtoLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A45741E2A28F349004226AA /* ProtoLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoLifeUITests.swift; sourceTree = "<group>"; };
+		4A4574202A28F349004226AA /* ProtoLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A4573FC2A28F348004226AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A45740D2A28F349004226AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4574172A28F349004226AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A4573F62A28F348004226AA = {
+			isa = PBXGroup;
+			children = (
+				4A4574012A28F348004226AA /* ProtoLife */,
+				4A4574132A28F349004226AA /* ProtoLifeTests */,
+				4A45741D2A28F349004226AA /* ProtoLifeUITests */,
+				4A4574002A28F348004226AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A4574002A28F348004226AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4573FF2A28F348004226AA /* ProtoLife.app */,
+				4A4574102A28F349004226AA /* ProtoLifeTests.xctest */,
+				4A45741A2A28F349004226AA /* ProtoLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A4574012A28F348004226AA /* ProtoLife */ = {
+			isa = PBXGroup;
+			children = (
+				4A4574022A28F348004226AA /* ProtoLifeApp.swift */,
+				4A4574042A28F348004226AA /* ContentView.swift */,
+				4A4574062A28F349004226AA /* Assets.xcassets */,
+				4A4574082A28F349004226AA /* ProtoLife.entitlements */,
+				4A4574092A28F349004226AA /* Preview Content */,
+			);
+			path = ProtoLife;
+			sourceTree = "<group>";
+		};
+		4A4574092A28F349004226AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A45740A2A28F349004226AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A4574132A28F349004226AA /* ProtoLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A4574142A28F349004226AA /* ProtoLifeTests.swift */,
+			);
+			path = ProtoLifeTests;
+			sourceTree = "<group>";
+		};
+		4A45741D2A28F349004226AA /* ProtoLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A45741E2A28F349004226AA /* ProtoLifeUITests.swift */,
+				4A4574202A28F349004226AA /* ProtoLifeUITestsLaunchTests.swift */,
+			);
+			path = ProtoLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A4573FE2A28F348004226AA /* ProtoLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4574242A28F349004226AA /* Build configuration list for PBXNativeTarget "ProtoLife" */;
+			buildPhases = (
+				4A4573FB2A28F348004226AA /* Sources */,
+				4A4573FC2A28F348004226AA /* Frameworks */,
+				4A4573FD2A28F348004226AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtoLife;
+			productName = ProtoLife;
+			productReference = 4A4573FF2A28F348004226AA /* ProtoLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A45740F2A28F349004226AA /* ProtoLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4574272A28F349004226AA /* Build configuration list for PBXNativeTarget "ProtoLifeTests" */;
+			buildPhases = (
+				4A45740C2A28F349004226AA /* Sources */,
+				4A45740D2A28F349004226AA /* Frameworks */,
+				4A45740E2A28F349004226AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A4574122A28F349004226AA /* PBXTargetDependency */,
+			);
+			name = ProtoLifeTests;
+			productName = ProtoLifeTests;
+			productReference = 4A4574102A28F349004226AA /* ProtoLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A4574192A28F349004226AA /* ProtoLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A45742A2A28F349004226AA /* Build configuration list for PBXNativeTarget "ProtoLifeUITests" */;
+			buildPhases = (
+				4A4574162A28F349004226AA /* Sources */,
+				4A4574172A28F349004226AA /* Frameworks */,
+				4A4574182A28F349004226AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A45741C2A28F349004226AA /* PBXTargetDependency */,
+			);
+			name = ProtoLifeUITests;
+			productName = ProtoLifeUITests;
+			productReference = 4A45741A2A28F349004226AA /* ProtoLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A4573F72A28F348004226AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4A4573FE2A28F348004226AA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					4A45740F2A28F349004226AA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4A4573FE2A28F348004226AA;
+					};
+					4A4574192A28F349004226AA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4A4573FE2A28F348004226AA;
+					};
+				};
+			};
+			buildConfigurationList = 4A4573FA2A28F348004226AA /* Build configuration list for PBXProject "ProtoLife" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A4573F62A28F348004226AA;
+			productRefGroup = 4A4574002A28F348004226AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A4573FE2A28F348004226AA /* ProtoLife */,
+				4A45740F2A28F349004226AA /* ProtoLifeTests */,
+				4A4574192A28F349004226AA /* ProtoLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A4573FD2A28F348004226AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A45740B2A28F349004226AA /* Preview Assets.xcassets in Resources */,
+				4A4574072A28F349004226AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A45740E2A28F349004226AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4574182A28F349004226AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A4573FB2A28F348004226AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4574052A28F348004226AA /* ContentView.swift in Sources */,
+				4A4574032A28F348004226AA /* ProtoLifeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A45740C2A28F349004226AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4574152A28F349004226AA /* ProtoLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4574162A28F349004226AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A45741F2A28F349004226AA /* ProtoLifeUITests.swift in Sources */,
+				4A4574212A28F349004226AA /* ProtoLifeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A4574122A28F349004226AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A4573FE2A28F348004226AA /* ProtoLife */;
+			targetProxy = 4A4574112A28F349004226AA /* PBXContainerItemProxy */;
+		};
+		4A45741C2A28F349004226AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A4573FE2A28F348004226AA /* ProtoLife */;
+			targetProxy = 4A45741B2A28F349004226AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A4574222A28F349004226AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A4574232A28F349004226AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4A4574252A28F349004226AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProtoLife/ProtoLife.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProtoLife/Preview Content\"";
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airbornedev..ProtoLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A4574262A28F349004226AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProtoLife/ProtoLife.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProtoLife/Preview Content\"";
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airbornedev..ProtoLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A4574282A28F349004226AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airbornedev..ProtoLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProtoLife";
+			};
+			name = Debug;
+		};
+		4A4574292A28F349004226AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airbornedev..ProtoLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProtoLife";
+			};
+			name = Release;
+		};
+		4A45742B2A28F349004226AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airbornedev..ProtoLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProtoLife;
+			};
+			name = Debug;
+		};
+		4A45742C2A28F349004226AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airbornedev..ProtoLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProtoLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A4573FA2A28F348004226AA /* Build configuration list for PBXProject "ProtoLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4574222A28F349004226AA /* Debug */,
+				4A4574232A28F349004226AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4574242A28F349004226AA /* Build configuration list for PBXNativeTarget "ProtoLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4574252A28F349004226AA /* Debug */,
+				4A4574262A28F349004226AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4574272A28F349004226AA /* Build configuration list for PBXNativeTarget "ProtoLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4574282A28F349004226AA /* Debug */,
+				4A4574292A28F349004226AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A45742A2A28F349004226AA /* Build configuration list for PBXNativeTarget "ProtoLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A45742B2A28F349004226AA /* Debug */,
+				4A45742C2A28F349004226AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A4573F72A28F348004226AA /* Project object */;
+}
