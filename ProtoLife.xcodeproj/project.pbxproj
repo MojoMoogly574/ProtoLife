@@ -19,6 +19,7 @@
 		4A4574372A28FC34004226AA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574362A28FC34004226AA /* CoreDataManager.swift */; };
 		4A4574392A28FF80004226AA /* AddBudgetCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4574382A28FF80004226AA /* AddBudgetCategoryView.swift */; };
 		4A45743B2A290832004226AA /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A45743A2A290832004226AA /* NumberFormatter.swift */; };
+		4A45743F2A293AB2004226AA /* BudgetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A45743E2A293AB2004226AA /* BudgetListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		4A4574362A28FC34004226AA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		4A4574382A28FF80004226AA /* AddBudgetCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetCategoryView.swift; sourceTree = "<group>"; };
 		4A45743A2A290832004226AA /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		4A45743E2A293AB2004226AA /* BudgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				4A4574042A28F348004226AA /* ContentView.swift */,
 				4A4574382A28FF80004226AA /* AddBudgetCategoryView.swift */,
+				4A45743E2A293AB2004226AA /* BudgetListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A4574052A28F348004226AA /* ContentView.swift in Sources */,
+				4A45743F2A293AB2004226AA /* BudgetListView.swift in Sources */,
 				4A4574032A28F348004226AA /* ProtoLifeApp.swift in Sources */,
 				4A4574352A28FA5E004226AA /* BudgetCategory+CoreDataClass.swift in Sources */,
 				4A4574392A28FF80004226AA /* AddBudgetCategoryView.swift in Sources */,

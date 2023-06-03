@@ -19,14 +19,22 @@ struct ContentView: View {
     
     @State private var isPresented:   Bool = false
     
+    var categoryTotal: Double {
+        budgetCategoryResults.reduce(0) { result, budgetCategory in
+            return result + budgetCategory.categoryTotal
+        }
+    }
+    
     
     var body: some View {
         NavigationStack  {
+            
             VStack {
-                List(budgetCategoryResults) { BudgetCategory in
-                    Text(BudgetCategory.categoryName ?? "")
-                }
                 
+                Text(categoryTotal as NSNumber, formatter: NumberFormatter.currency)
+                    .fontWeight(.bold)
+                
+                BudgetListView(budgetCategoryResults: budgetCategoryResults)
             }
             .sheet(isPresented: $isPresented, content:  {
                 AddBudgetCategoryView()
